@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <button class="show-modal">JavaScript</button>
+    <button class="show-modal">C++</button>
+    <button class="show-modal">Java</button>
+
+    <div class="modal hidden0">
+      <button class="close-modal">&times;</button>
+      <h1>Tell something About JavaScript</h1>
+      <p>
+        JavaScript was built for the web, and was initially created to “make web pages alive.” It came into appearance in 1995 via Netscape. It is a high-level, interpreted, scripting language. This means JavaScript doesn’t have a compilation step; it’s turned into virtual machine code on the spot at runtime, or, in this case, when the webpage loads. 
+      </p>
+    </div>
+
+    <div class="modal hidden1">
+        <button class="close-modal">&times;</button>
+        <h1>Tell Something about C++</h1>
+        <p>
+            C++ wasn’t built for the web… it was built for everything. In 1979, a Danish computer scientist named Bjarne Stroustrup wanted to make an extension to C that would allow it to use classes. This seed has since expanded to become one of the most well known and used general-purpose languages.  
+        </p>
+      </div>
+
+      <div class="modal hidden2">
+        <button class="close-modal">&times;</button>
+        <h1>Tell Something About Java</h1>
+        <p>
+        Sun Microsystems first released Java in 1996. At first, they intended to implement Java into televisions to enable interactivity, but these plans fell through. Instead, Java found its niche in server-side programming — the invisible background workings of applications. 
+        </p>
+      </div>
+
+    <div class="overlay hidden"></div>
+<div class="image">
+    <h1 style="color:blanchedalmond">
+        A Good programmer is someone who can learn any language without taking too much time.
+    </h1>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
